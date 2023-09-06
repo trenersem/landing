@@ -1,5 +1,4 @@
 import s from './index.module.scss';
-import { navLinks } from '../../constants';
 import { Typography } from '../atoms';
 import { phone } from '../../assets';
 

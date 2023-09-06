@@ -14,7 +14,6 @@ const Footer = () => {
             onClick={handleScrollToTop}
         />
         <Typography
-            color='yellow'
             className={s.footer__text}
         >
             Exciting space adventure!
