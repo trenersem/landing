@@ -1,7 +1,5 @@
-import React from 'react';
 import s from './index.module.scss';
-import { Button, EButtonType, ESvgIconType, SvgIcon, Typography } from '../atoms';
-import { info_1 } from '../../assets';
+import { Button, EButtonType, Typography } from '../atoms';
 
 const Main = () => {
   return (
