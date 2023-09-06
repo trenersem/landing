@@ -1,0 +1,82 @@
+@import '../../../styles/layout.scss';
+
+.text-l {
+    font-size: 42px;
+    line-height: 100%;
+
+    @media ($media_tablet) {
+        font-size: 40px;
+    }
+    @media ($media_mobile) {
+        font-size: 36px;
+    }
+}
+.text-m {
+    font-size: 36px;
+    line-height: 120%;
+
+    @media ($media_tablet) {
+        font-size: 24px;
+    }
+
+    @media ($media_mobile) {
+        font-size: 16px;
+    }
+
+}
+.text-s {
+    font-size: 24px;
+    line-height: 120%;
+
+    @media ($media_tablet) {
+        font-size: 16px;
+    }
+
+}
+.text-xs {
+    font-size: 20px;
+    line-height: 120%;
+
+    @media ($media_tablet) {
+        font-size: 16px;
+    }
+
+    @media ($media_mobile) {
+        font-size: 14px;
+    }
+
+}
+
+.regular {
+    font-weight: 700;
+
+}
+.bold {
+    font-weight: 800;
+
+}
+
+.yellow {
+    color: var(--color-yellow-100);
+}
+.pink {
+    color: var(--color-pink-100);
+}
+.white {
+    color: var(--color-white-100);
+}
+.main {
+    color: var(--color-main-100);
+}
+
+.left {
+    text-align: left;
+}
+
+.center {
+    text-align: center;
+}
+
+.right {
+    text-align: right;
+}

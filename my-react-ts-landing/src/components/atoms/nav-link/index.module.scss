@@ -1,0 +1,15 @@
+.link {
+    position: relative;
+    color: var(--color-white-100);
+    font-size: 18px;
+    font-weight: 700;
+    transition: all ease-in-out .3s;
+
+
+    &:hover {
+        background: linear-gradient(153deg, #EBFF00 0%, #FF70D9 100%);
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+}

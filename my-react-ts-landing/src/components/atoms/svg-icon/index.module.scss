@@ -1,0 +1,16 @@
+.svgIcon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.mask {
+    display: inline-flex;
+    // -webkit-mask-size: contain;
+    // -webkit-mask-repeat: no-repeat;
+}
+
+.image {
+    width: 100%;
+    filter: blur(5px) opacity(0.5);
+}

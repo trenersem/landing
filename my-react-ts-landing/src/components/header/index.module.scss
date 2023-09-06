@@ -1,0 +1,49 @@
+@import '../../styles/layout.scss';
+
+.root {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color-black-100);
+    width: 100vw;
+    height: 80px;
+    padding: 0 90px 0 80px;
+    z-index: $zAbove;
+
+    @media ($media_tablet) {
+        padding: 0 20px;
+    }
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    width: 100%;
+
+}
+
+.logo {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+    &__img {
+        height: 35px;
+        width: 104px;
+    }
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
+
+//   &:last-child {
+//     margin-right: 10px;
+//   }
+}
+.item {
+    color: var(--color-white-100); 
+}

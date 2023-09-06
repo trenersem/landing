@@ -1,0 +1,38 @@
+.root {
+    width: 100%;
+    background-color: var(--color-bg-100);
+}
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.item {
+    flex: 1 1 295px;
+    height: 110px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.title {
+ text-align: center;
+}
+
+.img {
+    height: 68px;
+    width: 68px;
+}
+
+.text {
+    span{
+        background: var(--color-blue-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+    }
+}

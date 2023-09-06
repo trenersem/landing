@@ -1,0 +1,27 @@
+@import './fonts.scss';
+
+:root {
+  --main-font: 'Nunito', sans-serif;
+  --base-font-size: 1px;
+  --base-line-height: 120%;
+  
+  --color-white-100: #FFF;
+  --color-bg-100:rgb(247,254,255);
+
+  --color-primary: #00040f;
+  --color-secondary:#00f6ff;
+  --color-dimWhite: rgba(255, 255, 255, 0.7);
+  --color-dimBlue: rgba(9, 151, 124, 0.1);
+
+
+  --color-main-100: #093f46; 
+
+  --color-black-100:rgba(0, 0, 0, 1);
+  --color-blue-100: #1ab2c5;
+  --color-orange-100: #f9a11e;
+  --color-green-100: #c0d20f;
+  --color-pink-100: rgba(255, 112, 217, 1);
+
+  --color-gradient: linear-gradient(153deg, #EBFF00 0%, #FF70D9 100%);
+  --color-blue-gradient: linear-gradient(157.81deg,#def9fa -43.27%,#bef3f5 -21.24%,#9dedf0 12.19%,#7de7eb 29.82%,#5ce1e6 51.94%,#33bbcf 90.29%);
+}

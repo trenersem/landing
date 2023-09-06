@@ -1,0 +1,18 @@
+@import '../../styles/layout.scss';
+
+.root {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    max-width: 1090px;
+    margin: 0 auto;
+    padding: 0 30px;
+
+    @media ($media_tablet) {
+        gap: 55px;
+    }
+    @media ($media_mobile) {
+        padding: 0 20px;
+    }
+
+}

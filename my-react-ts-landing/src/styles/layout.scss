@@ -1,0 +1,9 @@
+$mobile_breakpoint: 768;
+$tablet_breakpoint: 1248;
+
+$media_mobile: 'max-width: ' + $mobile_breakpoint + 'px';
+$media_tablet: 'max-width: ' + $tablet_breakpoint + 'px';
+
+$zBase: 0;
+$zAbove: 1;
+$zBelow: -1;
