@@ -1,0 +1,25 @@
+.root {
+
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 40px;
+}
+
+.item {
+    height: 34px;
+}
+
+.img {
+    height: 100%;
+    max-width:  100%;
+}

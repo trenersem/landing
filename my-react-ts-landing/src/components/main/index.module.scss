@@ -18,9 +18,8 @@
     background-size: cover;
     background-position: center;
    //background-image: url('https://images.unsplash.com/photo-1530686577637-0ccce382b327?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2434&q=80');
-    box-shadow: inset 19px 19px 194px 145px rgba(0,0,0,0.9);
+    // box-shadow: inset 19px 19px 194px 145px rgba(0,0,0,0.9);
    
-// box-shadow: inset 96px 78px 270px 139px rgba(0,0,0,0.92);
 }
 .content {
     padding: 60px 0 0 20px;
@@ -30,16 +29,9 @@
 }
 .title {
     line-height: 120%;
-    span {
-    background: var(--color-blue-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    }
 }
 .text {
-    color: var(--color-dimWhite)
+ 
 }
 .button {
     display: flex;

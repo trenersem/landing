@@ -5,7 +5,7 @@ import s from './index.module.scss';
 const Stats = () => (
   <Section className={s.root}>
     <Typography size='text-m' className={s.title}>
-        We’ve Helped Thousands of Homeowners Grow Their Vacation Rental Income
+        We’ve Helped Thousands of Homeowners<br /> Grow Their Vacation Rental Income
     </Typography>
     <div className={s.content}>
         {stats.map((stat) => (

@@ -6,6 +6,11 @@ import {
  stats_1,
  stats_2,
  stats_3,
+  vrbo,
+  hopper,
+  booking,
+  airbnb,
+  google
 } from '../assets';
 import { EBoxItemColor } from '../components/atoms/box-item';
 
@@ -74,3 +79,26 @@ export const stats = [
     color:  EBoxItemColor.BLUE,
   },
 ];
+
+export const partners = [
+  {
+    id: 'google',
+    logo:  google
+  },
+  {
+    id: 'airbnb',
+    logo:  airbnb
+  },
+  {
+    id: 'booking',
+    logo:  booking
+  },
+  {
+    id: 'vrbo',
+    logo:  vrbo
+  },
+  {
+    id: 'hooper',
+    logo:  hopper,
+  },
+]

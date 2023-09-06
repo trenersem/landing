@@ -1,4 +1,4 @@
-import { PageLayout, ContentLayout, Header, Main, Info, Stats } from "./components";
+import { PageLayout, ContentLayout, Header, Main, Info, Stats, Partners, Stress } from "./components";
 
 function App() {
   return (
@@ -8,6 +8,8 @@ function App() {
         <Main />
         <Info />
         <Stats />
+        <Partners />
+        <Stress />
       </ContentLayout>
      {/* <Footer /> */}
     </PageLayout>

@@ -25,7 +25,7 @@
 
 }
 .text-s {
-    font-size: 24px;
+    font-size: 18px;
     line-height: 120%;
 
     @media ($media_tablet) {
@@ -34,33 +34,37 @@
 
 }
 .text-xs {
-    font-size: 20px;
+    font-size: 12px;
     line-height: 120%;
 
     @media ($media_tablet) {
-        font-size: 16px;
+        font-size: 12px;
     }
 
     @media ($media_mobile) {
-        font-size: 14px;
+        font-size: 12px;
     }
 
 }
 
 .regular {
-    font-weight: 700;
+    font-weight: 400;
+}
 
+.semibold {
+    font-weight: 700;
 }
 .bold {
-    font-weight: 800;
-
+    font-weight: 900;
 }
-
-.yellow {
-    color: var(--color-yellow-100);
+.orange {
+    color: var(--color-orange-100);
 }
-.pink {
-    color: var(--color-pink-100);
+.blue {
+    color: var(--color-blue-100);
+}
+.green {
+    color: var(--color-green-100);
 }
 .white {
     color: var(--color-white-100);

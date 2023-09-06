@@ -16,8 +16,8 @@ export interface TypographyPropsI {
         | 'text-m'
         | 'text-s'
         | 'text-xs'
-    weight?: 'regular' | 'bold';
-    color?: 'main' | 'yellow' | 'pink' | 'white';
+    weight?: 'regular' | 'semibold'| 'bold';
+    color?: 'main' | 'orange' | 'blue' | 'white' | 'green';
     align?: 'left' | 'center' | 'right';
     className?: string;
     children?: ReactNode | string;

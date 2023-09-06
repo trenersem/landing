@@ -4,7 +4,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: var(--color-black-100);
     width: 100vw;
     height: 80px;
     padding: 0 90px 0 80px;
@@ -34,16 +33,15 @@
         width: 104px;
     }
 }
-.list {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 25px;
 
-//   &:last-child {
-//     margin-right: 10px;
-//   }
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
-.item {
-    color: var(--color-white-100); 
+
+.icon {
+    width: 23px;
+    height: 23px;
 }
