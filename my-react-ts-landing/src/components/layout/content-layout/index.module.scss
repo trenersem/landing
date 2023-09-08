@@ -1,4 +1,4 @@
-@import '../../styles/layout.scss';
+@import '../../../styles/layout.scss';
 
 .root {
     display: flex;
@@ -9,10 +9,10 @@
     padding: 0 30px;
 
     @media ($media_tablet) {
-        gap: 55px;
+        gap: 20px;
     }
     @media ($media_mobile) {
-        padding: 0 20px;
+        padding: 0 10px;
     }
 
 }

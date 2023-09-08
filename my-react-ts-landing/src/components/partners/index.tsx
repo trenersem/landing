@@ -4,7 +4,7 @@ import s from './index.module.scss';
 
 const Partners = () => (
   <Section className={s.root}>
-    <Typography size='text-m' className={s.title}>
+    <Typography size='text-m'  weight='semibold' className={s.title}>
         Evolve Lists Your Property on All the Top Rental Sites<br/> to Help You Succeed
     </Typography>
     <div className={s.content}>

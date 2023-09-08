@@ -1,10 +1,14 @@
 import s from './index.module.scss';
 import { Button, EButtonType, Typography } from '../atoms';
+import { bg_mobile } from '../../assets';
 
 const Main = () => {
   return (
     <div className={s.root}>
         <div className={s.bg}/>
+        <div className={s.img}>
+            <img src={bg_mobile} alt='bg' />
+        </div>
         <div className={s.content}>
             <Typography tag="h1" size='text-l' className={s.title} weight='bold'>
                 Maximize Your<br/>

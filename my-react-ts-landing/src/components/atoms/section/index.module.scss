@@ -1,3 +1,9 @@
+@import '../../../styles/layout.scss';
+
 .root {
     padding: 40px 0;
+
+    @media ($media_mobile) {
+        padding: 20px 15px;
+    }
 }

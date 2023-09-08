@@ -14,6 +14,7 @@ import vrbo from './vrbo.svg'
 
 import phone from './phone.svg';
 import bg_1 from './bg_1.svg';
+import bg_mobile from './bg_mobile.jpeg';
 
 export {
   info_1,
@@ -29,5 +30,6 @@ export {
   airbnb,
   google,
   phone,
-  bg_1
+  bg_1,
+  bg_mobile,
 };

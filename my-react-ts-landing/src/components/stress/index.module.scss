@@ -1,14 +1,25 @@
-.root {
+@import '../../styles/layout.scss';
 
+.root {
+    background-color: var(--color-bg-100);
 }
 .title {
     margin-bottom: 30px;
+
+    @media ($media_mobile) {
+        margin-bottom: 20px;
+        text-align: center;
+    }
 }
 .content {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 40px;
+
+     @media ($media_mobile) {
+        flex-direction: column;
+     }
 
 }
 

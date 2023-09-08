@@ -6,7 +6,7 @@ import s from './index.module.scss'
 const Stress = () => {
   return (
     <Section className={s.root}> 
-        <Typography className={s.title}>
+        <Typography className={s.title} weight='semibold'>
             Send Stress Packing
         </Typography>
         <div  className={s.content}>
