@@ -1,0 +1,23 @@
+@import '../../styles/layout.scss';
+
+.item {
+    display: flex;
+
+    &:not(:last-child) {
+         padding-bottom: 60px;
+    }
+
+    @media ($media_mobile) {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    &__title {
+        padding-bottom: 20px;
+    }
+
+    &__img{
+        border-radius: 6px;
+        overflow: hidden;
+    }
+}

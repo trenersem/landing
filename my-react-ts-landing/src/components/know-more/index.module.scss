@@ -1,0 +1,45 @@
+.description {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+
+    
+    &__title {
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        padding-bottom: 20px;
+     
+
+        &.open {
+           border-bottom: 2px solid #DDF0F2;
+            margin-bottom: 20px;
+        }
+    }
+
+    &__text {
+        max-height: 0;
+        overflow: hidden;
+        transition: all .3s ease;
+       
+
+    }
+}
+.open {
+     max-height: 1000px;
+     margin-bottom: 20px;
+}
+.icon {
+    width: 24px;
+    height: 24px;
+    color: var(--color-main-100);
+    margin-right: 10px;
+} 
+.active {
+    color: var(--color-blue-100);
+}    

@@ -11,12 +11,13 @@ import s from './index.module.scss';
 
 export interface TypographyPropsI {
     tag?: string;
+    font?: 'second'; 
     size?:
         | 'text-l'
         | 'text-m'
         | 'text-s'
         | 'text-xs'
-    weight?: 'regular' | 'semibold'| 'bold';
+    weight?: 'light' |'regular' | 'semibold'| 'bold';
     color?: 'main' | 'orange' | 'blue' | 'white' | 'green';
     align?: 'left' | 'center' | 'right';
     className?: string;
@@ -28,6 +29,7 @@ export interface TypographyPropsI {
 const Typography: ForwardRefRenderFunction<HTMLElement, TypographyPropsI> = (
     {
         tag = 'p',
+        font = '',
         size = 'text-m',
         color = 'main',
         weight = 'regular',
@@ -47,6 +49,7 @@ const Typography: ForwardRefRenderFunction<HTMLElement, TypographyPropsI> = (
                 [s[color]],
                 [s[weight]],
                 [s[align]],
+                [s[font]],
                 className,
             ),
         [className, size, color, weight, align],

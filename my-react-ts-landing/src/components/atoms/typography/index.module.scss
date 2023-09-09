@@ -1,5 +1,7 @@
 @import '../../../styles/layout.scss';
-
+.second {
+    font-family: var(--second-font);
+}
 .text-l {
     font-size: 42px;
     line-height: 100%;
@@ -46,11 +48,12 @@
     }
 
 }
-
+.light {
+    font-weight: 300;
+}
 .regular {
     font-weight: 400;
 }
-
 .semibold {
     font-weight: 700;
 }
@@ -71,6 +74,7 @@
 }
 .main {
     color: var(--color-main-100);
+    line-height: 160%;
 }
 
 .left {

@@ -1,0 +1,40 @@
+.root {
+    background-color: var(--color-bg-100);
+}
+
+.item {
+    padding: 14px 18px;
+    border-radius: 6px;
+
+    &:not(:last-child) {
+        margin-bottom: 25px;
+    }
+
+    &__quotes {
+        margin-bottom: 20px;
+    }
+
+    &__text {
+        line-height: 160%;
+        margin-bottom: 40px;
+    }
+
+    &__content {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+        
+
+
+        .name {
+
+        }
+
+        .earn {
+
+        }
+        .time {
+            font-weight: 400;
+        }
+    }
+}

@@ -1,4 +1,4 @@
-import { PageLayout, ContentLayout, Header, Main, Info, Stats, Partners, Stress } from "./components";
+import { PageLayout, ContentLayout, Header, Main, Info, Stats, Partners, Stress, Footer, KnowMore, About, Testimonials } from "./components";
 
 function App() {
   return (
@@ -10,8 +10,11 @@ function App() {
         <Stats />
         <Partners />
         <Stress />
+        <About />
+        <Testimonials />
+        <KnowMore />
       </ContentLayout>
-     {/* <Footer /> */}
+     <Footer />
     </PageLayout>
   );
 }
