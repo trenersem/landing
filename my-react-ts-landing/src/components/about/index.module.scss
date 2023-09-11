@@ -19,6 +19,9 @@
     }
     &:nth-child(2),&:nth-child(4) {
          flex-direction: row-reverse;
+          @media ($media_mobile) {
+               flex-direction: column-reverse;
+          }
     }
 
     @media ($media_mobile) {
@@ -28,6 +31,10 @@
 
     &__title {
         padding-bottom: 20px;
+
+    @media ($media_mobile) {
+            text-align: center;
+     }
     }
 
     &__img{
