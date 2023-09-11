@@ -1,5 +1,4 @@
-import React from 'react'
-import { useFormik, Formik, Field, Form, ErrorMessage } from 'formik';
+import { Formik, Field, Form, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import s from './index.module.scss'
 import { Button, EButtonType, Title, Typography } from '../atoms';
