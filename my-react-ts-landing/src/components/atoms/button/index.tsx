@@ -5,7 +5,7 @@ import { EButtonType, IButtonProps } from './types';
 
 
 
-const Button = ({type, children, className}: IButtonProps) => {
+const Button = ({kind, type, children, className}: IButtonProps) => {
         const buttonClassNames = React.useMemo(() => classNames(
         s.button,
         className,
@@ -14,7 +14,7 @@ const Button = ({type, children, className}: IButtonProps) => {
         { [s.button__transparent]: type === EButtonType.TRANSPARENT },
     ), [className, type]);
   return (
-    <button className={buttonClassNames}>
+    <button className={buttonClassNames} type={kind}>
         {children}
     </button>
   )

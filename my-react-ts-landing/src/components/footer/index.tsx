@@ -1,11 +1,12 @@
+import classNames from 'classnames';
 import { footer } from '../../assets';
 // import { socialMedia } from '../../constants';
 import { Typography } from '../atoms';
 import s from './index.module.scss'
 
-const Footer = () => {
+const Footer = ({className}:{className?: string}) => {
   return (
-    <footer className={s.footer}>
+    <footer className={classNames(s.footer, className)}>
       <div className={s.content}>
         <Typography
             className={s.footer__text}

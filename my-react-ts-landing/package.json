@@ -11,11 +11,15 @@
   },
   "dependencies": {
     "classnames": "^2.3.2",
+    "formik": "^2.4.4",
     "node-sass": "^9.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-icons": "^4.11.0",
-    "sass": "^1.66.1"
+    "react-router": "^6.15.0",
+    "react-router-dom": "^6.15.0",
+    "sass": "^1.66.1",
+    "yup": "^1.2.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.15",

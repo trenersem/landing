@@ -8,9 +8,14 @@ import Stress from './stress';
 import KnowMore from './know-more';
 import About from './about';
 import Testimonials from './testimonials';
+import FixedHeader from './fixed-header';
+import CTA from './cta';
+import CustomForm from './forms';
 
 export {
     Header,
+    FixedHeader,
+    CTA,
     Main,
     Info,
     Stats,
@@ -19,6 +24,7 @@ export {
     KnowMore,
     About,
     Testimonials,
+    CustomForm,
     Footer
 }
 export * from './layout';

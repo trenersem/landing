@@ -1,6 +1,7 @@
 import s from './index.module.scss';
 import { Button, EButtonType, Typography } from '../atoms';
 import { bg_mobile } from '../../assets';
+import { Link } from 'react-router-dom';
 
 const Main = () => {
   return (
@@ -20,8 +21,12 @@ const Main = () => {
                 vacation rental management so you can earn more and stress less.
             </Typography>
             <div className={s.button}>
-             <Typography className={s.text} size='text-xs' weight='semibold' color='blue'>Ready To Make More Money From Your Short-Term Rental?</Typography>
-             <Button type={EButtonType.CLASSIC}>See If You Quality</Button>
+                <Typography className={s.text} size='text-xs' weight='semibold' color='blue'>Ready To Make More Money From Your Short-Term Rental?</Typography>
+                <Button type={EButtonType.CLASSIC}>
+                    <Link to='/try' className='link'>
+                        See If You Quality
+                    </Link>
+                </Button>
             </div>
         </div>
     </div>
