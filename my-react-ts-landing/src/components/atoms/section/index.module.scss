@@ -1,9 +1,14 @@
 @import '../../../styles/layout.scss';
 
 .root {
-    padding: 40px 0;
-
+    padding: 40px 20px;
+    width: 100%;
     @media ($media_mobile) {
         padding: 20px 15px;
     }
+}
+.layout {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
 }

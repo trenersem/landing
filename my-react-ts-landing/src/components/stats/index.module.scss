@@ -1,7 +1,7 @@
-
 .root {
     width: 100%;
     background-color: var(--color-bg-100);
+    padding: 40px 20px;
 }
 .content {
     display: flex;
@@ -9,6 +9,17 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 40px;
+
+    &__stats{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+
+        & > p {
+            line-height: 120%;
+        }
+    }
 }
 
 .item {
@@ -17,6 +28,7 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
+    gap: 10px;
 }
 
 .title {
@@ -27,14 +39,4 @@
 .img {
     height: 68px;
     width: 68px;
-}
-
-.text {
-    span{
-        background: var(--color-blue-gradient);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        background-clip: text;
-        text-fill-color: transparent;
-    }
 }

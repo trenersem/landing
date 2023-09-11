@@ -6,6 +6,8 @@
     flex-direction: column;
     min-height: calc(100vh - 80px);
     padding: 0 15px;
+    background-position: center;
+    background-size: cover;
 }
 .form {
     display:  flex;
@@ -36,8 +38,13 @@
     border-radius: 6px;
     padding: 4px 2px; 
     background-color: rgba(216, 216, 216, 0.57);
-    border-color:  rgba(216, 216, 216, 0.7);
+    border: 1px solid rgba(216, 216, 216, 0.7);
     color: var(--color-main-100);
+    caret-color: var(--color-main-100);
+
+    &:focus {
+    outline: none;
+    }
 }
 .error {
     position: absolute;

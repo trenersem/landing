@@ -8,7 +8,6 @@ import {
 import classnames from 'classnames';
 
 import s from './index.module.scss';
-
 export interface TypographyPropsI {
     tag?: string;
     font?: 'second'; 

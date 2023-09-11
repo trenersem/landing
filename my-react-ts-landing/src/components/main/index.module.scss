@@ -40,6 +40,8 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
+    max-width: 1080px;
+    margin: 0 auto;
 
     @media ($media_mobile) {
          padding: 20px 0 0;
@@ -68,7 +70,7 @@
     flex-direction: column;
     gap: 20px;
     margin-top: 20px;
-    
+
     @media ($media_mobile) {
         margin-top: 0;
     }

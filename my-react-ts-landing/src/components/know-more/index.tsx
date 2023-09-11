@@ -55,7 +55,7 @@ const KnowMore = () => {
     };
   return (
    <Section className={s.root}>
-     <Title>
+     <Title className={s.title}>
           Want to Know More?
      </Title>
      <Typography className={s.description} size='text-s'>

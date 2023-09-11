@@ -2,10 +2,8 @@
 
 .root {
     display: flex;
-    flex-wrap: wrap;
-    gap: 80px;
-
      @media ($media_mobile) {
+        flex-wrap: wrap;
         gap: 20px;
      }
 }

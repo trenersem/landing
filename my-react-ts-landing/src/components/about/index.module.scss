@@ -1,10 +1,24 @@
 @import '../../styles/layout.scss';
 
+.root {
+    display: flex;
+    flex-direction: column;
+}
 .item {
     display: flex;
+    justify-content: space-around;
+    width: 100%;
+    gap:  20px;
+    // flex: 1 1 50%;
 
     &:not(:last-child) {
-         padding-bottom: 60px;
+         @media ($media_mobile) {
+              padding-bottom: 60px;
+         }
+         padding-bottom: 90px;
+    }
+    &:nth-child(2),&:nth-child(4) {
+         flex-direction: row-reverse;
     }
 
     @media ($media_mobile) {
@@ -17,7 +31,22 @@
     }
 
     &__img{
-        border-radius: 6px;
-        overflow: hidden;
+        max-width: 370px;
+        max-height: 290px;
+
+        &> img {
+            border-radius: 6px;
+            width: 100%;
+        }
     }
+}
+.content {
+    max-width: 480px;
+}
+.flex {
+    flex: 1 1 50%;
+
+     @media ($media_mobile) {
+        flex: none
+     }
 }

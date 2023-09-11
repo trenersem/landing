@@ -21,3 +21,11 @@
 .active {
     top: 0;
 }
+.button {
+    margin: 0 auto;
+    width: 300px;
+    
+    @media ($media_mobile) {
+        width: 100%;
+    }
+}

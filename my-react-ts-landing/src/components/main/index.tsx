@@ -22,11 +22,11 @@ const Main = () => {
             </Typography>
             <div className={s.button}>
                 <Typography className={s.text} size='text-xs' weight='semibold' color='blue'>Ready To Make More Money From Your Short-Term Rental?</Typography>
-                <Button type={EButtonType.CLASSIC}>
-                    <Link to='/try' className='link'>
-                        See If You Quality
-                    </Link>
-                </Button>
+                <Link to='/try' className='link'>
+                    <Button type={EButtonType.CLASSIC}>
+                            See If You Quality
+                    </Button>
+                </Link>
             </div>
         </div>
     </div>

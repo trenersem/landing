@@ -28,11 +28,11 @@ const FixedHeader = () => {
         <Typography font='second' className={s.title} weight='semibold'>
             Ready To Make More Money From Your Short-Term Rental?
         </Typography>
-      <Button type={EButtonType.CLASSIC}>
-         <Link to='/try' className='link'>
-             Let’s Do This
+        <Link to='/try' className='link'>
+            <Button type={EButtonType.CLASSIC} className={s.button}>
+                Let’s Do This
+            </Button>
          </Link>
-        </Button>
     </div>
   )
 }

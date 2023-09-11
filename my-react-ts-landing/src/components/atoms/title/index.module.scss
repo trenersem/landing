@@ -1,4 +1,9 @@
+@import '../../../styles/layout.scss';
 .title {
  text-align: center;
- margin-bottom: 30px;
+ margin-bottom: 40px;
+
+ @media ($media_mobile) {
+    margin-bottom: 30px;
+ }
 }

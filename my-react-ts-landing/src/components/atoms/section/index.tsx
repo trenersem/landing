@@ -10,7 +10,9 @@ export interface ISectionProps {
 const Section = ({children, className: style }: ISectionProps) => {
   return (
     <section className={classNames(s.root, style)}>
-      {children}
+        <div className={s.layout}>
+            {children}
+        </div>
     </section>
   )
 }

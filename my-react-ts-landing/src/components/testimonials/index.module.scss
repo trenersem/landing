@@ -1,13 +1,20 @@
+@import '../../styles/layout.scss';
 .root {
     background-color: var(--color-bg-100);
+    padding: 60px 20px 40px;
 }
 
 .item {
+    max-width: 950px;
+    margin: 0 auto;
     padding: 14px 18px;
     border-radius: 6px;
 
     &:not(:last-child) {
-        margin-bottom: 25px;
+        margin-bottom: 40px;
+        @media ($media_mobile) {
+            margin-bottom: 25px;
+        }
     }
 
     &__quotes {

@@ -1,9 +1,8 @@
-
+@import '../../styles/layout.scss';
+.section {
+     background-color: rgb(9,63,70);
+}
 .root {
-    position: relative;
-    width: 100vw;
-    left:  -25px;
-    background-color: rgb(9,63,70);
     padding: 30px;
 }
 

@@ -1,14 +1,14 @@
 import classNames from 'classnames';
 import { bg_1 } from '../../assets';
-import { Section, Typography } from '../atoms';
+import { Section, Title, Typography } from '../atoms';
 import s from './index.module.scss'
 
 const Stress = () => {
   return (
     <Section className={s.root}> 
-        <Typography className={s.title} weight='semibold'>
-            Send Stress Packing
-        </Typography>
+        <Title className={s.title}>
+             Send Stress Packing
+        </Title>
         <div  className={s.content}>
             <Typography className={classNames(s.text, s.item)} size='text-xs'>
                 Traditional short-term rental managers are often local, small businesses with just one or a few people handling everything. They’re typically great with services like cleaning, but lack the marketing and booking expertise you need to make the most from your investment.
