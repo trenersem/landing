@@ -38,7 +38,7 @@ const CustomForm = () => {
         currentlyManages: Yup.string().required("Required"),
         percentage: Yup.string().required("Required"),
         address: Yup.string().required("Address is required"),
-        bedrooms: Yup.string().required("Required"),
+        bedrooms: Yup.number().required("Required") .typeError('Must be a number'),
         firstName: Yup.string().required("Required"),
         lastName: Yup.string().required("Required"),
         phone: Yup.string()

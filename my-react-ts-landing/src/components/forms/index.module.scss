@@ -5,6 +5,7 @@
     align-items: center;
     flex-direction: column;
     min-height: calc(100vh - 80px);
+    padding: 0 15px;
 }
 .form {
     display:  flex;
@@ -13,7 +14,7 @@
     justify-content: center;
     max-width: 600px;
     padding: 20px;
-    margin-top: 80px;
+    margin: 60px 0 20px;
     border-radius: 8px;
     box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.57);
 }
@@ -21,12 +22,14 @@
 .flex {
     display: flex ;
     gap: 20px;
+    width: 100%;
 }
 .column{
     position: relative;
     display: flex;
     flex-direction: column;
     padding-bottom: 25px;
+    width: 100%;
 }
 .input {
     height: 32px;
