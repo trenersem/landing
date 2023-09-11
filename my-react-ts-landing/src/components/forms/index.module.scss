@@ -3,6 +3,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     min-height: calc(100vh - 80px);
 }
 .form {
@@ -12,6 +13,7 @@
     justify-content: center;
     max-width: 600px;
     padding: 20px;
+    margin-top: 80px;
     border-radius: 8px;
     box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.57);
 }
@@ -41,8 +43,9 @@
     white-space: nowrap;
 }
 .footer {
-    position: absolute;
-    bottom: 0;
+    // position: absolute;
+    // bottom: 0;
+    margin-top: auto;
     & > div {
         padding: 20px 0 10px;
     }
